@@ -1,4 +1,4 @@
-# BARK Supply Chain Transparency (SST) Platform
+# BARK Supply Chain Transparency (BSCP) Platform
 v0.1.0 Proof of Concept (PoC)
 
 ## Overview
@@ -12,8 +12,8 @@ The BARK Supply Chain Transparency (SST) Platform is a cutting-edge blockchain s
   - Employ the Proof of Authority consensus mechanism for high efficiency and minimal transaction costs.
 
 - **Programs / Smart Contracts:**
-  - Implement dynamic smart contracts designed to adapt to the evolving needs of BARK's charity foundation.
-  - Establish a flexible and upgradeable architecture, ensuring the platform remains agile in the rapidly changing landscape.
+  - Implement the BARK factory "protocol" program (Symbol: BSCP) with dynamic smart contracts designed to adapt to the evolving needs of BARK's charity foundation.
+  - Establish a flexible and upgradeable architecture, ensuring the BARK factory "protocol" program remains agile in the rapidly changing landscape.
   - Incorporate Solana 2022 Token Extension and its features to enhance the functionality of our smart contracts.
 
 - **Transaction Fees:**
