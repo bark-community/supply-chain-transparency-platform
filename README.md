@@ -106,7 +106,6 @@ The BARK Supply Chain Transparency (SST) Platform is a cutting-edge blockchain s
 ### Invite Collaborators:
 
 - 🎉 **GitHub Community:** [BARK Community](https://github.com/orgs/bark-community)
-- 🎉 **GitHub Organization:** [BARK Protocol](https://github.com/orgs/bark-protocol)
 
 ## Project Team
 - **Project Owners:** [Names of Project Owners]
