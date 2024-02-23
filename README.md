@@ -11,6 +11,8 @@ https://github.com/bark-community/disbursement-platform-monorepo
 **Frameworks:**
 Liveblocks is a real-time collaboration infrastructure for developers. BARK dApp uses Liveblocks Starter Kit: https://nextjs-starter-kit.liveblocks.app/
 
+Notice! This template serves as an early test to explore how it can aid development. Please note that this may not be the final framework and feedback from the community is encouraged for further improvements.
+
 ## Key Features:
 
 - **Blockchain Integration:**
