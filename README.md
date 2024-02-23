@@ -1,5 +1,7 @@
 # BARK - Disbursement and Supply Chain Platform (BSCP)
 
+Moved to the Disbursement Platform repository
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
