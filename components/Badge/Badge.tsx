@@ -9,18 +9,18 @@ export function Badge({
   return (
     <a
       className={clsx(className, styles.badge)}
-      href="https://liveblocks.io"
+      href="https://barkprotocol.net"
       rel="noreferrer"
       target="_blank"
       {...props}
     >
       <picture>
         <source
-          srcSet="https://liveblocks.io/badge-dark.svg"
+          srcSet="https://barkprotocol.net/badge-dark.svg"
           media="(prefers-color-scheme: dark)"
         />
         <img
-          src="https://liveblocks.io/badge-light.svg"
+          src="https://barkprotocol.net/badge-light.svg"
           alt="Made with Liveblocks"
           className={styles.image}
         />

@@ -1,55 +1,52 @@
-import clsx from "clsx";
-import { GetServerSideProps } from "next";
-import { signIn } from "next-auth/react";
-import { ComponentProps, ReactNode } from "react";
-import { DASHBOARD_URL } from "../constants";
+// components/HeroSection.js
+import React from "react";
 import { SignInIcon } from "../icons";
-import { MarketingLayout } from "../layouts/Marketing";
-import * as Server from "../lib/server";
 import { Button, LinkButton } from "../primitives/Button";
 import { Container } from "../primitives/Container";
-import styles from "./index.module.css";
+import styles from "./HeroSection.module.css";
 
-interface FeatureProps extends Omit<ComponentProps<"div">, "title"> {
-  description: ReactNode;
-  title: ReactNode;
-}
-
-function Feature({ title, description, className, ...props }: FeatureProps) {
+function HeroSection() {
   return (
-    <div className={clsx(className, styles.featuresFeature)} {...props}>
-      <h4 className={styles.featuresFeatureTitle}>{title}</h4>
-      <p className={styles.featuresFeatureDescription}>{description}</p>
-    </div>
+    <Container className={styles.heroContainer}>
+      <div className={styles.heroInfo}>
+        <h1 className={styles.heroTitle}>
+          BARK: Revolutionizing Disaster Relief&nbsp;Charities with Solana Blockchain
+        </h1>
+        <p className={styles.heroLead}>
+          Empowering Efficient Disbursement&nbsp;Transparent Supply Chains.
+          The BARK: Disbursement and Supply Chain Platform is a state-of-the-art solution built on the Solana blockchain, specifically tailored for disaster relief and charity foundations.
+        </p>
+      </div>
+      <div className={styles.heroActions}>
+        <Button icon={<SignInIcon />} onClick={() => signIn()}>
+          Sign in
+        </Button>
+        <LinkButton
+          href="https://barkprotocol.net/docs/"
+          target="_blank"
+          variant="secondary"
+        >
+          Documentation
+        </LinkButton>
+      </div>
+    </Container>
   );
 }
+
+export default HeroSection;
+
+// pages/index.js
+import React from "react";
+import { GetServerSideProps } from "next";
+import * as Server from "../lib/server";
+import Feature from "../components/Feature";
+import HeroSection from "../components/HeroSection";
+import styles from "./index.module.css";
 
 export default function Index() {
   return (
     <MarketingLayout>
-      <Container className={styles.section}>
-        <div className={styles.heroInfo}>
-          <h1 className={styles.heroTitle}>
-            BARK Disbursement &nbsp;app
-          </h1>
-          <p className={styles.heroLead}>
-            Use the Liveblocks Starter Kit to build your document-based
-            collaborative app in&nbsp;minutes.
-          </p>
-        </div>
-        <div className={styles.heroActions}>
-          <Button icon={<SignInIcon />} onClick={() => signIn()}>
-            Sign in
-          </Button>
-          <LinkButton
-            href="https://barkprotocol.net/docs/"
-            target="_blank"
-            variant="secondary"
-          >
-            Learn more
-          </LinkButton>
-        </div>
-      </Container>
+      <HeroSection />
       <Container className={styles.section}>
         <h2 className={styles.sectionTitle}>Features</h2>
         <div className={styles.featuresGrid}>
@@ -60,52 +57,9 @@ export default function Index() {
                 documents listing, users, groups, permissions, and more.
               </>
             }
-            title="Liveblocks"
+            title="Whitepaper"
           />
-          <Feature
-            description={
-              <>
-                Best practices followed, using a mixture of SSR and custom API
-                endpoints. Modify documents from both client and server.
-              </>
-            }
-            title="Next.js"
-          />
-          <Feature
-            description={
-              <>
-                Adjust our reusable interface & design system to fit your needs.
-              </>
-            }
-            title="User Interface"
-          />
-          <Feature
-            description={
-              <>
-                All custom client and server functions are fully typed, and easy
-                to update.
-              </>
-            }
-            title="TypeScript"
-          />
-          <Feature
-            description={
-              <>
-                Complete authentication, compatible with any NextAuth provider,
-                including GitHub, Google, Auth0, and many more.
-              </>
-            }
-            title="NextAuth.js"
-          />
-          <Feature
-            description={
-              <>
-                See data update live using the SWR (state-while-revalidate)
-                library.
-              </>
-            }
-            title="SWR"
-          />
+          {/* Add other Feature components here */}
         </div>
       </Container>
     </MarketingLayout>
