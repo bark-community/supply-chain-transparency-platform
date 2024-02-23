@@ -1,73 +1,71 @@
 # BARK Supply Chain Transparency (BSCP) Platform
-**v0.1.0 Proof of Concept (PoC)**
+v0.1.0 Proof of Concept (PoC)
 
 ## Overview
 
 The BARK Supply Chain (BSCP) Platform is a cutting-edge blockchain solution designed specifically for BARK's charity foundation. Our goal is to revolutionize transparency, traceability, and ethical practices within the supply chain, fostering a new era of efficiency and integrity in charitable operations.
 
-## Key Features
+## Key Features:
 
 - **Blockchain Integration:**
   - Leverage the power of Solana blockchain protocol with SEI Network, PYTH, and Chainlink for unparalleled transparency and scalability.
   - Employ the Proof of Authority consensus mechanism for high efficiency and minimal transaction costs.
 
-- **API Integration and Solana Firedancer Validators:**
-Implementation of API and Solana Firedancer Validators for the success of the BARK Supply Chain Transparency (BSCP) Platform.
-  - **Helios API Integration:**
-    - Implement robust integration with the Helios API to enhance functionalities within the BARK Supply Chain Transparency (SST) Platform.
-    - Develop clear and comprehensive documentation for Helios API endpoints, ensuring ease of integration for various components of our platform.
-    - Leverage the capabilities of the Helios API to facilitate secure and transparent data exchange between the platform and external systems.
-    - Collaborate with the Helios community to stay informed about best practices and updates related to the API.
-  - **API Integration:**
-    - Implement robust API integration methodologies for seamless communication between the BARK Supply Chain Transparency (SST) Platform and external systems.
-    - Develop clear and comprehensive documentation for API endpoints, ensuring ease of integration for supply chain partners.
-    - Establish a continuous feedback loop with stakeholders to address integration challenges promptly.
-  - **Solana Firedancer Validators:**
-    - Utilize Solana Firedancer Validators to enhance the security and efficiency of the Solana blockchain within our platform.
-    - Ensure the Validators are configured and maintained to uphold the integrity of the decentralized network.
-    - Collaborate with the Solana community to stay informed about best practices and updates related to Firedancer Validators.
+- **API Integration and Solana Firedancer Validators**
+  - The critical implementation of API and Solana Firedancer Validators is essential for the success of the BARK Supply Chain Transparency (BSCP) Platform.
 
-- **Programs / Smart Contracts:**
-  - Implement the BARK factory "protocol" program (Symbol: BSCP) with dynamic smart contracts designed to adapt to the evolving needs of BARK's charity foundation.
-  - Establish a flexible and upgradeable architecture, ensuring the BARK factory "protocol" program remains agile in the rapidly changing landscape.
-  - Incorporate Solana 2022 Token Extension and its features to enhance the functionality of our smart contracts.
+### Helius API Integration:
+- Implement robust integration with the Helius API to enhance functionalities within the BARK Supply Chain Transparency (SST) Platform.
+- Develop clear and comprehensive documentation for Helius API endpoints, ensuring ease of integration for various components of our platform.
+- Leverage the capabilities of the Helius API to facilitate secure and transparent data exchange between the platform and external systems.
+- Collaborate with the Helius community to stay informed about best practices and updates related to the API.
 
-- **Transaction Fees:**
-  - Introduce a transaction fee mechanism to sustain the platform's operations and contribute to charitable causes.
-  - Set a basic fee of 6%, ensuring a sustainable funding model.
-  - Implement a maximum fee cap of 8% to provide flexibility for users.
-  - Allocate 3% of the transaction fees to the Treasury, supporting ongoing development and maintenance.
-  - Dedicate another 3% to the Charity Fund, fostering positive social impact within BARK's chosen initiatives.
-  - Introduce a 1% reward for the community, encouraging active participation and engagement.
-  - Allocate 2% of the transaction fees to the Team, recognizing their contributions and dedication to the project.
+### API Integration:
+- Implement robust API integration methodologies for seamless communication between the BARK Supply Chain Transparency (BSCP) Platform and external systems.
+- Develop clear and comprehensive documentation for API endpoints, ensuring ease of integration for supply chain partners.
+- Establish a continuous feedback loop with stakeholders to address integration challenges promptly.
 
-- **Decentralized Database:**
-  - Robust data privacy measures and encryption to safeguard sensitive information.
-  - Regular security audits and updates to fortify against emerging threats.
+## Programs / Smart Contracts:
+- Implement the BARK factory "protocol" program (Symbol: BSCP) with dynamic smart contracts designed to adapt to the evolving needs of BARK's charity foundation.
+- Establish a flexible and upgradeable architecture, ensuring the BARK factory "protocol" program remains agile in the rapidly changing landscape.
+- Incorporate Solana 2022 Token Extension and its features to enhance the functionality of our smart contracts.
 
-- **User Interface:**
-  - An intuitive and user-friendly interface developed through iterative testing for continuous improvement.
-  - Accessibility features ensuring inclusivity for all users.
+## Transaction Fees:
+- Introduce a transaction fee mechanism to sustain the platform's operations and contribute to charitable causes.
+- Set a basic fee of 6%, ensuring a sustainable funding model.
+- Implement a maximum fee cap of 8% to provide flexibility for users.
+- Allocate 3% of the transaction fees to the Treasury, supporting ongoing development and maintenance.
+- Dedicate another 3% to the Charity Fund, fostering positive social impact within BARK's chosen initiatives.
+- Introduce a 1% reward for the community, encouraging active participation and engagement.
+- Allocate 2% of the transaction fees to the Team, recognizing their contributions and dedication to the project.
 
-- **Supply Chain Integration:**
-  - Clear and comprehensive documentation for BARK APIs, easing integration for supply chain partners.
-  - A continuous feedback loop with stakeholders for swift issue resolution.
+## Decentralized Database:
+- Robust data privacy measures and encryption to safeguard sensitive information.
+- Regular security audits and updates to fortify against emerging threats.
 
-- **Tokenization:**
-  - Introduction of a governance mechanism for the BARK token, fostering community participation in decision-making.
-  - Transparent communication on the utility and benefits of the BARK token for all participants.
+## User Interface:
+- An intuitive and user-friendly interface developed through iterative testing for continuous improvement.
+- Accessibility features ensuring inclusivity for all users.
 
-- **Disbursement Platform:**
-  - Advanced features for transparent and efficient fund disbursement processes.
-  - Strengthening the backbone of supply chain transparency.
+## Supply Chain Integration:
+- Clear and comprehensive documentation for BARK APIs, easing integration for supply chain partners.
+- A continuous feedback loop with stakeholders for swift issue resolution.
 
-- **BARK Token Holders and Wallet Features:**
-  - Real-time tracking and display of BARK token holders.
-  - Integration of wallet features empowering users to manage their BARK tokens seamlessly.
+## Tokenization:
+- Introduction of a governance mechanism for the BARK token, fostering community participation in decision-making.
+- Transparent communication on the utility and benefits of the BARK token for all participants.
 
-- **Platform Template and Demo:**
-  - A customizable platform template for easy deployment tailored to specific needs.
-  - A demonstration version showcasing the platform's key features and capabilities.
+## Disbursement Platform:
+- Advanced features for transparent and efficient fund disbursement processes.
+- Strengthening the backbone of supply chain transparency.
+
+## BARK Token Holders and Wallet Features:
+- Real-time tracking and display of BARK token holders.
+- Integration of wallet features empowering users to manage their BARK tokens seamlessly.
+
+## Platform Template and Demo:
+- A customizable platform template for easy deployment tailored to specific needs.
+- A demonstration version showcasing the platform's key features and capabilities.
 
 ## Project Phases
 
@@ -97,7 +95,9 @@ Implementation of API and Solana Firedancer Validators for the success of the BA
 
 7. **Integration and Testing (Month 16-18):**
    - Initiating a bug bounty program to encourage external security assessments.
-   - Establishing a sandbox environment for supply chain partners to test integration.
+  
+
+ - Establishing a sandbox environment for supply chain partners to test integration.
 
 8. **MVP (Minimum Viable Product) (Month 19-21):**
    - Releasing the MVP with core features.
@@ -108,19 +108,17 @@ Implementation of API and Solana Firedancer Validators for the success of the BA
    - Rolling out a comprehensive marketing and community engagement strategy.
 
 10. **Marketing:**
-  - Develop and execute comprehensive marketing strategies to promote the BARK platform.
-  - Engage in targeted outreach to increase awareness and participation in BARK's
+    - Develop and execute comprehensive marketing strategies to promote the BARK platform.
+    - Engage in targeted outreach to increase awareness and participation in BARK's charitable initiatives.
+    - Utilize various channels, including social media, partnerships, and events, to reach a wider audience.
 
- charitable initiatives.
-  - Utilize various channels, including social media, partnerships, and events, to reach a wider audience.
+10.1 - **Airdrops:**
+    - Conduct strategic airdrop campaigns to distribute tokens to a wider audience.
+    - Increase community engagement through airdrop participation and reward mechanisms.
 
-10.1 **Airdrops:**
-  - Conduct strategic airdrop campaigns to distribute tokens to a wider audience.
-  - Increase community engagement through airdrop participation and reward mechanisms.
-
-10.2 **Campaigns:**
-  - Plan and execute various campaigns to drive adoption and participation in the BARK platform.
-  - Align campaigns with BARK's mission and values, promoting transparency and ethical practices.
+10.2 - **Campaigns:**
+    - Plan and execute various campaigns to drive adoption and participation in the BARK platform.
+    - Align campaigns with BARK's mission and values, promoting transparency and ethical practices.
 
 ## Notice! Project Contributors Needed
 
@@ -206,6 +204,8 @@ We are seeking individuals with expertise in the following technical areas to co
 - Implementing best practices for cloud infrastructure.
 
 ### Marketing Technology:
+
+
 - Developing and executing marketing strategies for blockchain projects.
 - Utilizing social media and other channels for targeted outreach.
 
@@ -223,9 +223,7 @@ We are seeking individuals with expertise in the following technical areas to co
 
 ### Database Technical Architecture:
 - Designing and optimizing database architecture.
-- Implementing best practices for data integrity
-
- and immutability.
+- Implementing best practices for data integrity and immutability.
 
 ### Solana 2022 Token Extension:
 - Implementing features from Solana 2022 Token Extension.
