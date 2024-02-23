@@ -11,9 +11,19 @@ The BARK Supply Chain Transparency (SST) Platform is a cutting-edge blockchain s
   - Leverage the power of Solana blockchain protocol with SEI Network, PYTH, and Chainlink for unparalleled transparency and scalability.
   - Employ the Proof of Authority consensus mechanism for high efficiency and minimal transaction costs.
 
-- **Smart Contracts:**
-  - Dynamic smart contracts that adapt to the evolving needs of BARK's charity foundation.
-  - A flexible and upgradeable architecture ensuring the platform stays ahead in the rapidly changing landscape.
+- **Programs / Smart Contracts:**
+  - Implement dynamic smart contracts designed to adapt to the evolving needs of BARK's charity foundation.
+  - Establish a flexible and upgradeable architecture, ensuring the platform remains agile in the rapidly changing landscape.
+  - Incorporate Solana 2022 Token Extension and its features to enhance the functionality of our smart contracts.
+
+- **Transaction Fees:**
+  - Introduce a transaction fee mechanism to sustain the platform's operations and contribute to charitable causes.
+  - Set a basic fee of 6%, ensuring a sustainable funding model.
+  - Implement a maximum fee cap of 8% to provide flexibility for users.
+  - Allocate 3% of the transaction fees to the Treasury, supporting ongoing development and maintenance.
+  - Dedicate another 3% to the Charity Fund, fostering positive social impact within BARK's chosen initiatives.
+  - Introduce a 1% reward for the community, encouraging active participation and engagement.
+  - Allocate 2% of the transaction fees to the Team, recognizing their contributions and dedication to the project.
 
 - **Decentralized Database:**
   - Robust data privacy measures and encryption to safeguard sensitive information.
