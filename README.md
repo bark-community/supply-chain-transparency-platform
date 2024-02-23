@@ -45,7 +45,7 @@ https://
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/bark-community/disbursement-platform.git
+   git clone https://github.com/bark-community/disbursement-platform.git // Need to change naming on Github!
    ```
 
 2. Install dependencies:
