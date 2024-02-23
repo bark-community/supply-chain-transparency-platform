@@ -5,6 +5,12 @@ v0.1.0 Proof of Concept (PoC)
 
 The BARK Supply Chain (BSCP) Platform is a cutting-edge blockchain solution designed specifically for BARK's charity foundation. Our goal is to revolutionize transparency, traceability, and ethical practices within the supply chain, fostering a new era of efficiency and integrity in charitable operations.
 
+### Demo / Template:
+https://github.com/bark-community/disbursement-platform-monorepo
+
+**Frameworks:**
+Liveblocks is a real-time collaboration infrastructure for developers. BARK dApp uses Liveblocks Starter Kit: https://nextjs-starter-kit.liveblocks.app/
+
 ## Key Features:
 
 - **Blockchain Integration:**
