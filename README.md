@@ -12,7 +12,7 @@ The BARK Supply Chain (BSCP) Platform is a cutting-edge blockchain solution desi
   - Employ the Proof of Authority consensus mechanism for high efficiency and minimal transaction costs.
 
 - **API Integration and Solana Firedancer Validators:**
-  - Implementation of API and Solana Firedancer Validators for the success of the BARK Supply Chain Transparency (BSCP) Platform.
+Implementation of API and Solana Firedancer Validators for the success of the BARK Supply Chain Transparency (BSCP) Platform.
   - **Helios API Integration:**
     - Implement robust integration with the Helios API to enhance functionalities within the BARK Supply Chain Transparency (SST) Platform.
     - Develop clear and comprehensive documentation for Helios API endpoints, ensuring ease of integration for various components of our platform.
