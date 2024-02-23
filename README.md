@@ -108,9 +108,7 @@ The BARK Supply Chain Transparency (SST) Platform is a cutting-edge blockchain s
 - 🎉 **GitHub Community:** [BARK Community](https://github.com/orgs/bark-community)
 - 🎉 **Jira/Confluence BARK Project Board:** [Link to Jira Project Board for detailed task tracking]
 
-Absolutely! Here's a refined version of the notice:
-
-**Notice!** Before accessing the detailed task tracking on our Jira/Confluence BARK Project Board, we kindly request you to reach out to us at [contact@barkprotocol.net](mailto:contact@barkprotocol.net). Your cooperation in this matter is greatly appreciated, and we look forward to assisting you promptly.
+**Notice!** Before accessing the detailed task tracking on our Jira/Confluence BARK Project Board, we kindly request you to reach out to us at contact@barkprotocol.net. Your cooperation in this matter is greatly appreciated, and we look forward to assisting you promptly.
 
 ## Project Team
 - **Project Owners:** [Names of Project Owners]
