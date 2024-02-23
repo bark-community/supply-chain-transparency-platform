@@ -1,15 +1,31 @@
 # BARK Supply Chain Transparency (BSCP) Platform
-v0.1.0 Proof of Concept (PoC)
+**v0.1.0 Proof of Concept (PoC)**
 
 ## Overview
 
 The BARK Supply Chain (BSCP) Platform is a cutting-edge blockchain solution designed specifically for BARK's charity foundation. Our goal is to revolutionize transparency, traceability, and ethical practices within the supply chain, fostering a new era of efficiency and integrity in charitable operations.
 
-## Key Features:
+## Key Features
 
 - **Blockchain Integration:**
   - Leverage the power of Solana blockchain protocol with SEI Network, PYTH, and Chainlink for unparalleled transparency and scalability.
   - Employ the Proof of Authority consensus mechanism for high efficiency and minimal transaction costs.
+
+- **API Integration and Solana Firedancer Validators:**
+  - Implementation of API and Solana Firedancer Validators for the success of the BARK Supply Chain Transparency (BSCP) Platform.
+  - **Helios API Integration:**
+    - Implement robust integration with the Helios API to enhance functionalities within the BARK Supply Chain Transparency (SST) Platform.
+    - Develop clear and comprehensive documentation for Helios API endpoints, ensuring ease of integration for various components of our platform.
+    - Leverage the capabilities of the Helios API to facilitate secure and transparent data exchange between the platform and external systems.
+    - Collaborate with the Helios community to stay informed about best practices and updates related to the API.
+  - **API Integration:**
+    - Implement robust API integration methodologies for seamless communication between the BARK Supply Chain Transparency (SST) Platform and external systems.
+    - Develop clear and comprehensive documentation for API endpoints, ensuring ease of integration for supply chain partners.
+    - Establish a continuous feedback loop with stakeholders to address integration challenges promptly.
+  - **Solana Firedancer Validators:**
+    - Utilize Solana Firedancer Validators to enhance the security and efficiency of the Solana blockchain within our platform.
+    - Ensure the Validators are configured and maintained to uphold the integrity of the decentralized network.
+    - Collaborate with the Solana community to stay informed about best practices and updates related to Firedancer Validators.
 
 - **Programs / Smart Contracts:**
   - Implement the BARK factory "protocol" program (Symbol: BSCP) with dynamic smart contracts designed to adapt to the evolving needs of BARK's charity foundation.
@@ -90,17 +106,19 @@ The BARK Supply Chain (BSCP) Platform is a cutting-edge blockchain solution desi
 9. **Launch and Deployment (Month 22):**
    - Developing educational materials and training programs.
    - Rolling out a comprehensive marketing and community engagement strategy.
-  
+
 10. **Marketing:**
   - Develop and execute comprehensive marketing strategies to promote the BARK platform.
-  - Engage in targeted outreach to increase awareness and participation in BARK's charitable initiatives.
+  - Engage in targeted outreach to increase awareness and participation in BARK's
+
+ charitable initiatives.
   - Utilize various channels, including social media, partnerships, and events, to reach a wider audience.
 
-10.1 - **Airdrops:**
+10.1 **Airdrops:**
   - Conduct strategic airdrop campaigns to distribute tokens to a wider audience.
   - Increase community engagement through airdrop participation and reward mechanisms.
 
-10.2 - **Campaigns:**
+10.2 **Campaigns:**
   - Plan and execute various campaigns to drive adoption and participation in the BARK platform.
   - Align campaigns with BARK's mission and values, promoting transparency and ethical practices.
 
@@ -149,6 +167,71 @@ The BARK Supply Chain (BSCP) Platform is a cutting-edge blockchain solution desi
 - **Technical Writer**
 - **Project Documentation Specialist**
 
+## Technical Skills
+
+We are seeking individuals with expertise in the following technical areas to contribute to the success of the BARK Supply Chain Transparency (SST) Platform, dApps, or our other projects:
+
+### dApp´s and Blockchain Development:
+- Proficiency in Solana, Firedancer, SEI blockchain, and PYTH (Oracle) development
+- Experience with Solana, Firedancer, SEI Network, PYTH, or Chainlink or interested to join BARK
+- Rust, TypeScript, JavaScript, React.js, node.js, Next.js, Solidy, Anchor, etc.. programming languages.
+- Smart contract development and deployment.
+
+### System Architecture:
+- Designing and implementing scalable and secure system architectures.
+- Familiarity with decentralized applications (dApps) and their architectures.
+
+### UI/UX Design:
+- Web and graphic design skills for creating an intuitive user interface.
+- Experience in designing user-friendly dashboards for real-time tracking and reporting.
+
+### Supply Chain Integration:
+- Collaborating with key stakeholders such as manufacturers, suppliers, and distributors.
+- Implementing APIs for seamless data exchange between supply chain systems and the SST platform.
+
+### Database Management:
+- Designing and maintaining decentralized databases with a focus on data privacy and security.
+- Implementing periodic security audits and updates.
+
+### Security and Compliance:
+- Ensuring the highest levels of security in the platform's architecture.
+- Complying with industry standards and regulations related to blockchain and supply chain.
+
+### Technical Writing:
+- Creating comprehensive technical documentation for developers and stakeholders.
+- Documenting project requirements, architecture, and deployment processes.
+
+### AWS Technical Architecture:
+- Designing scalable and secure cloud architecture on AWS.
+- Implementing best practices for cloud infrastructure.
+
+### Marketing Technology:
+- Developing and executing marketing strategies for blockchain projects.
+- Utilizing social media and other channels for targeted outreach.
+
+### Airdrop and Campaign Management:
+- Planning and executing airdrop campaigns for token distribution.
+- Managing marketing campaigns aligned with project goals.
+
+### Project Management:
+- Coordinating and leading development efforts.
+- Ensuring timely delivery and efficient collaboration among team members.
+
+### Quality Assurance and Testing:
+- Conducting thorough testing of the entire platform.
+- Initiating bug bounty programs for external security assessments.
+
+### Database Technical Architecture:
+- Designing and optimizing database architecture.
+- Implementing best practices for data integrity
+
+ and immutability.
+
+### Solana 2022 Token Extension:
+- Implementing features from Solana 2022 Token Extension.
+
+If you possess expertise in any of these areas and are passionate about contributing to a transparent and efficient future, we welcome you to join our team!
+
 ## Key Success Factors
 
 - Proven commitment to sustainability and transparent communication.
@@ -157,4 +240,4 @@ The BARK Supply Chain (BSCP) Platform is a cutting-edge blockchain solution desi
 
 ## License
 
-This project is licensed under the MIT - see the [LICENSE.md](LICENSE.md) file for details.
+MIT - see the [LICENSE.md](LICENSE.md) file for details.
